@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LiSFinalProject</title>
+    <!-- CDN link to SlickNav CSS  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+    <!-- Link to your custom stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- CDN link to jQuery (necessary for SlickNav jQuery to work -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <!-- CDN link to SlickNav jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- call SlickNav on appropriate media query -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#nav_menu").slicknav({
+                prependTo: "#mobilemenu"
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="grid">
+        <nav id="mobilemenu"></nav>
+        <!-- default nav menu -->
+        <header class="header">
+            <div class="header_inner">
+                <div>
+                    <a href="http://best-electronics-ca.com/">
+                        <img class="header_logo"
+                            src="https://cdn.clipart.email/5e667a4a4d9ae2532e05503919f3c2cd_free-nes-controller-cliparts-download-free-clip-art-free-clip-_2200-1445.png"
+                            alt="controller" title="Publisher:clipart-library, http://clipart-library.com/nes-controller-cliparts.html"></a>
+                </div>
+                <h1 class="header_title">
+                    Best Electronics CA
+                </h1>
+            </div>
+        </header>
+        <nav id="nav_menu">
+            <div class="nav-links">
+                <ul>
+                    <li class="nav_item"><a href="index.html">Home</a></li>
+                    <li class="nav_item"><a href="contact.html">Contact</a></li>
+                    <li class="nav_item"><a href="shop.html">Shop</a></li>
+                    <li class="nav_item"><a href="location.html">Location</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <main class="content">
+            <div class="wrapper">
+                <h1 class="head">Contact Information</h1>
+                <div class="col-ap">
+                    <i class="fas fa-phone fa-2x"></i>
+                    <h2>Phone</h2>
+                    <p>Telephone: (408) 278-1070</p>
+                    <p>E-FAX: (815) 364-3703</p>
+                </div>
+
+                <div class="col-ap">
+                    <i class="fas fa-map-marker-alt fa-2x"></i>
+                    <h2>Address</h2>
+                    <p> 672 Commercial Street</p>
+                    <p>San Jose, CA95112-1406</p>
+                </div>
+
+                <div class="col-ap">
+                    <i class="fas fa-envelope-open-text fa-2x"></i>
+                    <h2>Email</h2>
+                    <p>bestelec@bestelec.digitalspacemail8.net</p>
+                </div>
+                <div>
+                    <i class="far fa-calendar-alt fa-2x"></i>
+                    <h2>Hours of Operation:</h2>
+                    <p>Monday to Friday: 1:30 pm – 5:00 pm PST</p>
+                    <h3>(International Customers when calling in to us, remember your local day may be a day ahead or
+                        behind us depending on your location in the world.)</h3>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <ul id="footer-left">
+                <li>© 2020 Designed by Selena Li</li>
+            </ul>
+            <ul id="footer-right">
+                <li class="instagram"><a href="https://www.instagram.com/selenaxli/"><span
+                            class="fa fa-instagram"></span></a></li>
+                <li class="linkedin"><a href="https://www.linkedin.com/in/selena-li-74200a1a3/"><span
+                            class="fa fa-linkedin-square"></span></a></li>
+                <li class="github"><a href="https://github.com/selenali07"><span class="fa fa-github"></span></a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+
+</html>
